@@ -19,6 +19,8 @@ body {
 	background-image: none;
 	color: #e1d8c4;
 	height: 90px;
+	border-bottom: 2px solid #e1d8c4;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .pageTitle {
@@ -33,7 +35,8 @@ body {
 	padding-top: 34px;
 	padding-bottom: 34px;
 	line-height: 22px;
-	font-size: 22px;
+	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 ul {
@@ -63,6 +66,53 @@ ul {
 
 }
 
+.infoContainer {
+	background-color: white;
+    width: 600px;
+    height: 325px;
+    padding: 25px;
+    margin-top: 30px;
+    float:left;
+}
+
+.aboutMe {
+
+	color: #4aaaa5;
+	font-size: 30px; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+img {
+
+	float: left;
+    margin: 0 10px 10px 10px;
+}
+
+.bio {
+	color: #666666;
+	float: clear;
+
+
+}
+
+.connectWithMe {
+	background-color: white;
+    width: 300px;
+    height: 150px;
+    padding-top: 20px;
+    position: absolute right;
+    color: #4aaaa5;
+    font-size: 25px;
+    float:right;
+    margin-top:30px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: bold;
+    position: relative;
+}
+    	
+
 
 
 .foot {
@@ -71,4 +121,11 @@ ul {
 	height: 60px;
 	text-align: center;
 	padding-top: 40px;
+	float: clear;
+	position:fixed;
+   bottom:0;
+   border-top: 7px solid #4aaaa5;
+   max-width:960px;
+	width:100%;
+
 }
