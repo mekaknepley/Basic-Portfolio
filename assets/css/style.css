@@ -135,7 +135,10 @@ img {
 
 .contactForm input[type=text] {
 	 width: 590px;
-	
+}
+
+.contactFormLabel {
+	padding-top: 20px;
 }
 
 .contactForm input[type=submit] {
@@ -154,6 +157,11 @@ img {
 	border:0 none; 
 	width: 80px;
 	height: 30px;
+	margin-left: 10px;
+}
+
+.contactFormSpacer {
+	height: 20px;
 }
 
 .connectWithMe {
@@ -178,6 +186,11 @@ hr {
   color: #b3b9a7;
 }
 
+.connectWithMe hr {
+	height: 1px;
+	width: 200px;
+}
+
 .imageContainer {
 	display: table;
 	margin: auto;
@@ -197,7 +210,7 @@ hr {
 	float: left;
 	position: relative;
 	width: 275px;
-	height: 275px;
+	height: 205px;
 	margin: 15px 10px; 
 }
 .portfolioDescription {
@@ -205,12 +218,15 @@ hr {
 	position: absolute;
 	background-color: #4aaaa5;
 	color: white;
-	top: 155px;
+	font-size: 35px;
+	top: 138px;
 	left: 10px;
 	width: 275px;
 	height: 60px;
+	padding-top: 10px;
 	text-align: center;
 	vertical-align: middle;
+	box-sizing: border-box;
 }
 
 .foot {
