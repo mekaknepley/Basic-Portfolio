@@ -186,6 +186,11 @@ hr {
   color: #b3b9a7;
 }
 
+.infoContainer hr {
+	width:590px;
+    border-style: solid;
+    border-width: 1px;
+}
 .connectWithMe hr {
 	height: 1px;
 	width: 200px;
