@@ -50,6 +50,10 @@ body {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;	
+}
+
 .userNavContainer {
 	height: 100%;
 	width: 100%;
@@ -75,10 +79,13 @@ body {
 
 .userNav a {
 	text-decoration: none;
+	color: silver;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: bold;
 }
 
 .userNav a:visited {
-	color: #e1d8c4;
+	color: silver;
 }
 
 .userNav li {
